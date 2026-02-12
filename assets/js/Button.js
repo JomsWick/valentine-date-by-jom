@@ -19,23 +19,20 @@ let toggled = false;
 if (yesBtn && noBtn && container) {
     yesBtn.addEventListener("click", () => {
         showToast("You chose YES!! 💖", "success");
-        modal.style.display = "flex";
-    });
 
-    document.querySelector(".viber").addEventListener("click", () => {
         window.location.href = "viber://chat?number=%2B639561250706";
-    });
 
-    document.querySelector(".viber").addEventListener("click", () => {
-        window.location.href = "https://vb.me/639561250706";
-    });
+        setTimeout(() => {
+            window.location.href = "https://vb.me/639561250706";
+        }, 3000);
 
-    document.querySelector(".whatsapp").addEventListener("click", () => {
-        window.location.href = "https://wa.me/639561250706";
-    });
+        setTimeout(() => {
+            window.open("https://wa.me/639561250706", "_blank");
+        }, 4000);
 
-    document.querySelector(".telegram").addEventListener("click", () => {
-        window.location.href = "https://t.me/joms_wick";
+        setTimeout(() => {
+            window.open("https://t.me/joms_wick", "_blank");
+        }, 5000);
     });
 
     noBtn.addEventListener("mouseover", () => {
