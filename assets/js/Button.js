@@ -23,7 +23,7 @@ if (yesBtn && noBtn && container) {
         window.location.href = "viber://chat?number=%2B09561250706";
 
         setTimeout(() => {
-            window.open("https://wa.me/09561250706", "_blank");
+            window.open("https://wa.me/639561250706", "_blank");
         }, 1000);
 
         setTimeout(() => {
