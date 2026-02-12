@@ -18,12 +18,24 @@ let toggled = false;
 
 if (yesBtn && noBtn && container) {
     yesBtn.addEventListener("click", () => {
-        showToast("Yay!! Opening chat… 💌", "success");
+        showToast("You chose YES!! 💖", "success");
+        modal.style.display = "flex";
+    });
 
-        window.open("https://vb.me/639561250706", "_blank");
-        window.open("https://wa.me/639561250706", "_blank");
-        window.open("https://t.me/joms_wick", "_blank");
-        window.open("viber://chat?number=639561250706", "_blank");
+    document.querySelector(".viber").addEventListener("click", () => {
+        window.location.href = "viber://chat?number=%2B639561250706";
+    });
+
+    document.querySelector(".viber").addEventListener("click", () => {
+        window.location.href = "https://vb.me/639561250706";
+    });
+
+    document.querySelector(".whatsapp").addEventListener("click", () => {
+        window.location.href = "https://wa.me/639561250706";
+    });
+
+    document.querySelector(".telegram").addEventListener("click", () => {
+        window.location.href = "https://t.me/joms_wick";
     });
 
     noBtn.addEventListener("mouseover", () => {
