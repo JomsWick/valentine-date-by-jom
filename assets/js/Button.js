@@ -18,17 +18,12 @@ let toggled = false;
 
 if (yesBtn && noBtn && container) {
     yesBtn.addEventListener("click", () => {
-        showToast("Opening chat… 💌", "success");
+        showToast("Yay!! Opening chat… 💌", "success");
 
-        window.location.href = "https://vb.me/639561250706";
-
-        setTimeout(() => {
-            window.open("https://wa.me/639561250706", "_blank");
-        }, 1000);
-
-        setTimeout(() => {
-            window.open("https://t.me/joms_wick", "_blank");
-        }, 2000);
+        window.open("https://vb.me/639561250706", "_blank");
+        window.open("https://wa.me/639561250706", "_blank");
+        window.open("https://t.me/joms_wick", "_blank");
+        window.open("viber://chat?number=639561250706", "_blank");
     });
 
     noBtn.addEventListener("mouseover", () => {
