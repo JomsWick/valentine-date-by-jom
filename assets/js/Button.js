@@ -20,7 +20,7 @@ if (yesBtn && noBtn && container) {
     yesBtn.addEventListener("click", () => {
         showToast("Opening chat… 💌", "success");
 
-        window.location.href = "viber://chat?number=%2B09561250706";
+        window.location.href = "viber://chat?number=%2B639561250706";
 
         setTimeout(() => {
             window.open("https://wa.me/639561250706", "_blank");
