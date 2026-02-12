@@ -1,0 +1,14 @@
+.window {
+    background: white;
+    width: 350px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    text-align: center;
+    position: relative;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #e91e63;
+}
